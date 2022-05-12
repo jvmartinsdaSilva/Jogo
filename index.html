@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR
+">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da forca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="msg">
+        <p id="msgtext"r>Venceu</p>
+        <button id="reset" onclick="reset()">Reiniciar</button>   
+    </div>
+    <div id="title">
+        JOGO DA FORCA
+       
+    </div>
+    
+    </div>
+    <div id="jogo">
+        <div id="imagem">
+            <img src="/imagens/forca00.png" alt="">
+        </div>
+        <div id="palavra-secreta">
+        <!-- <div class="letras">A</div>
+        <div class="letras">A</div>
+        <div class="letras">A</div> -->
+        </div>
+        <div id="tema"></div>
+        <div id="teclado">    
+            <div class="teclas" id="t1">
+                <button id='T-Q'onclick="inserir('Q')">Q</button>
+                <button id="T-W" onclick="inserir('W')">W</button>
+                <button id="T-E" onclick="inserir('E')">E</button>
+                <button id="T-R" onclick="inserir('R')">R</button>
+                <button id="T-T" onclick="inserir('T')">T</button>
+                <button id="T-Y" onclick="inserir('Y')">Y</button>
+                <button id="T-U" onclick="inserir('U')">U</button>
+                <button id="T-I" onclick="inserir('I')">I</button>
+                <button id="T-O" onclick="inserir('O')">O</button>
+                <button id="T-P" onclick="inserir('P')">P</button>
+            </div>
+            <div class="teclas" id="t2">
+                <button id="T-A" onclick="inserir('A')">A</button>
+                <button id="T-S" onclick="inserir('S')">S</button>
+                <button id="T-D" onclick="inserir('D')">D</button>
+                <button id="T-F" onclick="inserir('F')">F</button>
+                <button id="T-G" onclick="inserir('G')">G</button>
+                <button id="T-H" onclick="inserir('H')">H</button>
+                <button id="T-J" onclick="inserir('J')">J</button>
+                <button id="T-K" onclick="inserir('K')">K</button>
+                <button id="T-L" onclick="inserir('L')">L</button>
+                <button id="T-Ç" onclick="inserir('Ç')">Ç</button>
+            </div>
+            <div class="teclas" id="t3">
+                <button id="T-Z" onclick="inserir('Z')">Z</button>
+                <button id="T-X" onclick="inserir('X')">X</button>
+                <button id="T-C" onclick="inserir('C')">C</button>
+                <button id="T-V" onclick="inserir('V')">V</button>
+                <button id="T-B" onclick="inserir('B')">B</button>
+                <button id="T-N" onclick="inserir('N')">N</button>
+                <button id="T-M" onclick="inserir('M')">M</button>
+                <!-- <button id="resposta" onclick="responder()">RESPOSTA</button> -->
+
+            </div>
+
+        </div>
+        
+        </div>
+    
+        <script src="projeto.js"></script>
+</body>
+</html>

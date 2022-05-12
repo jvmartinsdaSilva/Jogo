@@ -1,0 +1,376 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Permanent+Marker&family=Press+Start+2P&display=swap');
+
+
+body{
+    height: 90vh;
+    width: 100hw;
+    background-image: url(/imagens/folha700.png);
+}
+
+
+
+#title{
+    text-align: center;
+    font: bold 3em 'Permanent Marker';
+    color:rgba(110, 121, 224, 0.842)
+}
+
+#msg{
+   
+   display: none;
+   position: fixed;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(0, 0, 0, 0.8);
+   flex-direction: column;
+}
+
+#msg > button{
+    font: bold 1.5em Arial;
+    width: auto;
+    height: auto;
+    background-color: rgb(84, 99, 226);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+
+#msg > button:hover{
+    background-color: white;
+    color:rgba(110, 121, 224, 0.842)
+}
+
+#msgtext{
+    font: bold 1.5em Arial ;
+    color: white
+}
+
+
+
+div#jogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+div#imagem{
+    width: 234px;
+    height: 272px;
+    margin: auto;
+    align-items: center;
+    font-size: 9em;
+    margin-top: 10px;
+    
+
+}
+
+#palavra-secreta{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: 55px;
+}
+
+#tema{
+    margin-top: 25px;
+    margin-left: 68px;
+    font: bold 2em 'Permanent Marker';
+    color: rgba(216, 28, 15, 0.877)
+}
+
+.letras{
+    width: 16px;
+    margin-top: 15px;
+    border-bottom: 3px solid black;
+    margin-left: 2px;
+    margin-right: 2px;
+    font: bold 1.2em'arial';
+    text-align: center;
+    padding: 2px;
+    color: red;
+}
+
+button{
+    width: 35px;
+    height: 35px;
+    background:none;
+    margin: 3px;
+    margin-top: 7px;
+    border: 1px solid black;
+    font: bold 1em arial;
+    
+}
+
+button#reset{
+    width: auto;
+}
+
+button:hover{
+    border: none;
+    background-color: rgb(84, 99, 226);
+    color: antiquewhite;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}
+
+button#resposta{
+    width: auto;
+    
+}
+
+div#teclado{
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(105, 105, 105, 0.445);
+}
+
+div#t2{
+    margin-left: 5px;
+}
+
+div#t3{
+    margin-left: 50px;
+}
+
+
+
+
+@media (min-width: 320px){
+    #title{
+        font: bold 16px 'Permanent Marker';
+    }
+
+    #palavra-secreta{
+        font: normal 15px arial;
+        margin-top: -69px;
+    }
+
+    #letras{
+        width: 14px;
+        height: 14px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    #tema{
+        margin-top: 10px;
+        font: bold 14px 'Permanent Marker';
+
+    }
+
+    div#imagem{
+        margin-top: 5px;
+        width: auto;
+        height: auto;
+    }
+
+    #teclado{
+        margin-top: 5px;
+        margin-left: 5px;
+      
+       
+    }
+
+    button{
+        width: 30px;
+        height: 26px;
+        background: none;
+        margin: 3px;
+        margin-left: -1px;
+        margin-top: 7px;
+        border: 1px solid black;
+        font: bold 10px arial;
+        background-color: rgba(245, 245, 245, 0.445);
+             
+    }
+
+    div#t2{
+        margin-left: 0px;
+    }
+    
+    div#t3{
+        margin-left: 0px;
+    }
+    
+}
+ @media (min-width: 375px){
+    #title{
+        font: bold 1.1em 'Permanent Marker';
+    }
+
+    #palavra-secreta{
+        margin-top: -65px;
+        font: bold 15px arial;
+    }
+
+    #letras{
+        width: 16px;
+        height: 16px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    #tema{
+        margin-top: 10px;
+        font: bold 16px 'Permanent Marker';
+    }
+
+    div#imagem{
+        margin-top: 5px;
+        width: auto;
+        height: auto;
+    }
+
+    #teclado{
+        margin-left: 0px;
+    }
+
+    button{
+        width: 35px;
+        height: 30px;
+        background: none;
+        margin: 3px;
+        margin-left: -1px;
+        margin-top: 7px;
+        border: 1px solid black;
+        font: bold 10px arial;
+              
+    }
+
+    div#t2{
+        margin-left: 0px;
+    }
+    
+    div#t3{
+        margin-left: 0px;
+    }
+} 
+ @media (min-width: 420px){
+    #title{
+        font: bold 1.2em 'Permanent Marker';
+    }
+
+    #palavra-secreta{
+        margin-top: -65px;
+        font: bold 15px arial;
+    }
+
+    #letras{
+        width: 16px;
+        height: 16px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    #tema{
+        margin-top: 10px;
+        font: bold 16px 'Permanent Marker';
+    }
+
+    div#imagem{
+        margin-top: 7px;
+        width: auto;
+        height: auto;
+    }
+
+    div#teclado{
+        
+        margin-top: 1px;
+    }
+
+    button{
+        width: 43px;
+        height: 40px;
+        background: none;
+        margin: 3px;
+        margin-left: -1px;
+        margin-top: 7px;
+        border: 1px solid black;
+        font: bold 10px arial;
+              
+    }
+
+    div#t2{
+        margin-left: 0px;
+    }
+    
+    div#t3{
+        margin-left: 0px;
+    }
+} 
+
+@media(min-width: 765px){
+    #title{
+        font: bold 2em 'Permanent Marker';
+    }
+
+    #palavra-secreta{
+        margin-top: -65px;
+        font: bold 15px arial;
+    }
+
+    #letras{
+        width: 16px;
+        height: 16px;
+        
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    #tema{
+        margin-top: 10px;
+        font: bold 1.5em 'Permanent Marker';
+    }
+
+    div#imagem{
+        margin-top: 7px;
+        width: auto;
+        height: auto;
+    }
+
+    div#teclado{
+        
+        margin-top: 1px;
+    }
+
+    button{
+        width: 50px;
+        height: 50px;
+        background: none;
+        margin: 3px;
+        margin-left: -1px;
+        margin-top: 7px;
+        border: 1px solid black;
+        font: bold 1em arial;
+              
+    }
+
+    div#t2{
+        margin-left: 5px;
+    }
+    
+    div#t3{
+        margin-left: 70px;
+    }
+
+}
