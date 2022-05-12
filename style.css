@@ -144,15 +144,9 @@ div#teclado{
     box-shadow: 2px 2px 2px rgba(105, 105, 105, 0.445);
 }
 
-div#t2{
-    margin-left: 5px;
-}
-
 div#t3{
-    margin-left: 50px;
+    margin-left: 70px;
 }
-
-
 
 
 @media (min-width: 320px){
@@ -184,32 +178,23 @@ div#t3{
         height: auto;
     }
 
-    #teclado{
+    div#teclado{
         margin-top: 5px;
         margin-left: 5px;
-      
-       
     }
 
     button{
-        width: 30px;
-        height: 26px;
-        background: none;
-        margin: 3px;
-        margin-left: -1px;
-        margin-top: 7px;
+        width: 24px;
+        height: 24px;
+        margin-top: 3px;
+        margin-left: 0px;
+        margin-right: 0px;
         border: 1px solid black;
         font: bold 10px arial;
-        background-color: rgba(245, 245, 245, 0.445);
-             
-    }
+    } 
 
-    div#t2{
-        margin-left: 0px;
-    }
-    
     div#t3{
-        margin-left: 0px;
+        margin-left: 30px;
     }
     
 }
@@ -241,29 +226,19 @@ div#t3{
         height: auto;
     }
 
-    #teclado{
+    div#teclado{
         margin-left: 0px;
     }
 
     button{
-        width: 35px;
-        height: 30px;
-        background: none;
+        width: 27px;
+        height: 28px;
         margin: 3px;
         margin-left: -1px;
         margin-top: 7px;
-        border: 1px solid black;
-        font: bold 10px arial;
-              
+        font: bold 10px arial;            
     }
 
-    div#t2{
-        margin-left: 0px;
-    }
-    
-    div#t3{
-        margin-left: 0px;
-    }
 } 
  @media (min-width: 420px){
     #title{
@@ -293,29 +268,15 @@ div#t3{
         height: auto;
     }
 
-    div#teclado{
-        
+    div#teclado{      
         margin-top: 1px;
     }
 
     button{
-        width: 43px;
-        height: 40px;
-        background: none;
-        margin: 3px;
-        margin-left: -1px;
+        width: 32px;
+        height: 35px;
         margin-top: 7px;
-        border: 1px solid black;
-        font: bold 10px arial;
-              
-    }
-
-    div#t2{
-        margin-left: 0px;
-    }
-    
-    div#t3{
-        margin-left: 0px;
+        font: bold 10px arial;          
     }
 } 
 
