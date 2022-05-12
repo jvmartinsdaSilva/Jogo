@@ -1,7 +1,7 @@
 const temas = [
     tema001 = {
         Categoria: 'LUGARES',
-        Palavras: ['JAPAO', 'BRASIL', 'RUSSIA', 'CANADA', 'AUTRALIA', 'INDIA', 'PERU', 'ARGENTINA', 'CHILE', 'ESTONIA', 'VENEZUELA',  'ITALIA', 'PORTUGAL', 'CHINA', 'URUGUAI', 'EQUADOR', 'UCRANIA', 'SUICA', 'SUECIA', 'COLOMBIA', 'MEXICO'],
+        Palavras: ['JAPAO', 'BRASIL', 'RUSSIA', 'CANADA', 'AUTRALIA', 'INDIA', 'PERU', 'ARGENTINA', 'CHILE', 'ESTONIA', 'VENEZUELA',  'ITALIA', 'PORTUGAL', 'CHINA', 'URUGUAI', 'EQUADOR', 'UCRANIA', 'SUIÇA', 'SUECIA', 'COLOMBIA', 'MEXICO'],
     },
     tema002 = {
         Categoria: 'FRUTAS',
