@@ -1,7 +1,7 @@
 const temas = [
     tema001 = {
         Categoria: 'LUGARES',
-        Palavras: ['JAPAO', 'BRASIL', 'RUSSIA', 'CANADA', 'AUTRALIA', 'INDIA', 'PERU', 'ARGENTINA', 'CHILE', 'ESTONIA', 'VENEZUELA',  'ITALIA', 'PORTUGAL', 'CHINA', 'URUGUAI', 'EQUADOR', 'UCRANIA', 'SUIÇA', 'SUECIA', 'COLOMBIA', 'MEXICO'],
+        Palavras: ['JAPAO', 'BRASIL', 'RUSSIA', 'CANADA', 'AUSTRALIA', 'INDIA', 'PERU', 'ARGENTINA', 'CHILE', 'ESTONIA', 'VENEZUELA',  'ITALIA', 'PORTUGAL', 'CHINA', 'URUGUAI', 'EQUADOR', 'UCRANIA', 'SUIÇA', 'SUECIA', 'COLOMBIA', 'MEXICO'],
     },
     tema002 = {
         Categoria: 'FRUTAS',
@@ -61,14 +61,12 @@ MontarnaTela();
 
 const inserir = (letra) => {
     document.getElementById('T-' + letra).disabled = true;
-    if(tentativas > 0){
-        
-    comparalista(letra);
-    MontarnaTela();
-    imagemTela();
-    console.log(tentativas);
-    estiolobtn('T-' + letra);
-
+    if(tentativas > 0){   
+        comparalista(letra);
+        MontarnaTela();
+        imagemTela();
+        console.log(tentativas);
+        estiolobtn('T-' + letra);
     } 
 };
 
