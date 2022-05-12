@@ -107,19 +107,19 @@ const comparalista = (letra) => {
 const imagemTela = () => {
     switch(tentativas){
         case 5:
-            document.getElementById('imagem').innerHTML = "<img src='/imagens/forca01.png' alt=''>";
+            document.getElementById('imagem').innerHTML = "<img src='./imagens/forca01.png' alt=''>";
             break;
         case 4:
-            document.getElementById('imagem').innerHTML = "<img src='/imagens/forca02.png' alt=''>";
+            document.getElementById('imagem').innerHTML = "<img src='./imagens/forca02.png' alt=''>";
             break;
         case 3:
-            document.getElementById('imagem').innerHTML = "<img src='/imagens/forca03.png' alt=''>";
+            document.getElementById('imagem').innerHTML = "<img src='./imagens/forca03.png' alt=''>";
             break
         case 2:
-            document.getElementById('imagem').innerHTML = "<img src='/imagens/forca04.png' alt=''>";
+            document.getElementById('imagem').innerHTML = "<img src='./imagens/forca04.png' alt=''>";
             break;
         case 1:
-            document.getElementById('imagem').innerHTML = "<img src='/imagens/forca05.png' alt=''>";
+            document.getElementById('imagem').innerHTML = "<img src='./imagens/forca05.png' alt=''>";
             break
         case 0:
             document.getElementById('imagem').innerHTML = "<img src='/imagens/forca06.png' alt=''>";
