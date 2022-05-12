@@ -122,7 +122,7 @@ const imagemTela = () => {
             document.getElementById('imagem').innerHTML = "<img src='./imagens/forca05.png' alt=''>";
             break
         case 0:
-            document.getElementById('imagem').innerHTML = "<img src='/imagens/forca06.png' alt=''>";
+            document.getElementById('imagem').innerHTML = "<img src='./imagens/forca06.png' alt=''>";
             break;
     }
 }
