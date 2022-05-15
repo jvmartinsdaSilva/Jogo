@@ -79,6 +79,7 @@ const comparalista = (letra) => {
         if(tentativas == 0){
            msg.style.display = 'flex';
            msgtext.innerText =  `Você perdeu. A palavra era  ${palavraSorteada}`
+           document.getElementById('teclado').style.display = 'none'
         }
     else {
         for(let i = 0; i < palavraSorteada.length; i++){
@@ -99,6 +100,7 @@ const comparalista = (letra) => {
         tentativas = 0;
         msg.style.display = 'flex'
         msgtext.innerText = 'Você venceu'
+        document.getElementById('teclado').style.display = 'none'
     };
 };
 
