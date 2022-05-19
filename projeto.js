@@ -14,7 +14,7 @@ const temas = [
 
     temas004 = {
         Categoria: 'PROFISSÃO',
-        Palavras: ['PALHAÇO', 'ENGENHEIRO']
+        Palavras: ['PALHAÇO', 'ENGENHEIRO', 'EMPREGADA', 'COZINHEIRO', 'MEDICO', 'POLICIAL', 'BOMBEIRO', 'JORNALISTA', 'ATOR', 'DENTISTA', 'CONTADOR', 'SECRETARIO', 'CHAVEIRO']
     }
 ];
 
